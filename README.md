@@ -1,6 +1,3 @@
-# molecular-3d-printer
-Applied open-source molecular 3D printer.
-
 # 🔬 Open Molecular Printing Platform & Applied Ionic Technologies
 
 ![Licença: Hardware](https://img.shields.io/badge/Hardware_License-CERN--OHL--S-blue.svg)
@@ -10,7 +7,7 @@ Applied open-source molecular 3D printer.
 
 ## 📌 Resumo Executivo
 
-O projeto **Open Molecular Printing** é uma iniciativa pioneira de Hardware de Código Aberto (OSHW) dedicada a democratizar e expandir as fronteiras da **Impressão Molecular Aplicada** e da manufatura aditiva de materiais ativos. 
+O projeto **Open Molecular Printing** é uma iniciativa pioneria de Hardware de Código Aberto (OSHW) dedicada a democratizar e expandir as fronteiras da **Impressão Molecular Aplicada** e da manufatura aditiva de materiais ativos. 
 
 Nosso objetivo fundamental é transitar da impressão 3D geométrica tradicional para a construção funcional de dispositivos a nível molecular e estrutural. Desenvolvemos o ecossistema completo — desde a engenharia de impressoras com atmosfera controlada até as formulações químicas de tintas iônicas e poliméricas — permitindo a fabricação sob demanda de sistemas energéticos e funcionais diretamente na mesa de trabalho.
 
@@ -78,4 +75,3 @@ O ecossistema é regido por licenças abertas rigorosas:
 * **Hardware, Mecânica e CAD:** [CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S)](https://ohwr.org/cern_ohl_s_v2.txt)
 * **Firmware, Scripts e Código:** [Licença MIT](LICENSE-MIT.txt)
 * **Documentação, Manuais e Textos:** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
-
