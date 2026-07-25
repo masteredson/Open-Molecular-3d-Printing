@@ -1,6 +1,6 @@
-🔬 Open Molecular Printing Platform & Applied Ionic Technologies
+#🔬 Open Molecular Printing Platform & Applied Ionic Technologies
 
-📌 Executive Summary
+##📌 Executive Summary
 
 The Open Molecular Printing project is a pioneering Open Source Hardware (OSHW) initiative dedicated to democratizing and expanding the frontiers of Applied Molecular Printing and the additive manufacturing of electrochemically active materials.
 
@@ -8,7 +8,7 @@ Our fundamental goal is to transition from traditional geometric 3D printing to 
 
 To validate the potential of this revolutionary technology, we begin with practical "start" applications: the replacement of traditional energy sources, such as everyday alkaline batteries, and the evolution toward advanced systems, such as Magnesium-Manganese Dioxide ($Mg-MnO_2$) structural batteries, culminating in monolithically printed high-performance drone airframes.
 
-⚠️ Safety Disclaimer
+##⚠️ Safety Disclaimer
 
 THIS IS AN ADVANCED RESEARCH PROJECT IN MATERIALS CHEMISTRY AND MANUFACTURING.
 The replication and experiments documented in this repository involve the handling of highly reactive metallic powders, organic solvents, radiation-curable resins, and inert gas environments.
@@ -19,7 +19,7 @@ Personal Protective Equipment (PPE), including nitrile/butyl gloves, safety gogg
 
 The maintainers of this ecosystem disclaim all liability for incidents resulting from the incorrect replication of the chemical and physical processes described herein.
 
-🏗️ Repository Architecture
+##🏗️ Repository Architecture
 
 The project is structured in a modular fashion to encourage specialized contributions across different technological fronts:
 
@@ -35,7 +35,7 @@ The project is structured in a modular fashion to encourage specialized contribu
 
 📁 /Software: Trajectory control scripts, parametric G-code generation adapted for non-Newtonian fluids, and automation for the controlled environment.
 
-🚀 Technological Roadmap
+##🚀 Technological Roadmap
 
 Our development journey scales from molecular foundations to decentralized industrial applications:
 
@@ -49,13 +49,13 @@ Our development journey scales from molecular foundations to decentralized indus
 
 [ ] Phase 5: High-Performance Structural Integration - Completion of the LFSD project (energy-generating drone airframe) and consolidation of a global open molecular printing platform.
 
-🤝 How to Contribute
+##🤝 How to Contribute
 
 The evolution of open molecular manufacturing requires multidisciplinary collaboration. We invite materials scientists, mechanical engineers, software developers, and open hardware enthusiasts to join forces.
 
 Please consult our CONTRIBUTING.md and CODE_OF_CONDUCT.md to begin your interactions and submissions.
 
-💡 Funding and Transparency
+##💡 Funding and Transparency
 
 This project operates under the principles of total openness and transparency. We are seeking fiscal hosting through the Open Source Collective (OSC) to ensure integrity and community-managed governance of all obtained resources.
 
@@ -67,7 +67,7 @@ Machining and prototyping of mechanical components and controlled-atmosphere cha
 
 Computational infrastructure for molecular modeling and AI-assisted simulations.
 
-📄 Licensing
+##📄 Licensing
 
 This ecosystem is governed by rigorous open licenses:
 
