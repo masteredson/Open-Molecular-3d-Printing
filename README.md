@@ -9,7 +9,7 @@
 
 O projeto **Open Molecular Printing** é uma iniciativa pioneria de Hardware de Código Aberto (OSHW) dedicada a democratizar e expandir as fronteiras da **Impressão Molecular Aplicada** e da manufatura aditiva de materiais ativos. 
 
-Nosso objetivo fundamental é transitar da impressão 3D geométrica tradicional para a construção funcional de dispositivos a nível molecular e estrutural. Desenvolvemos o ecossistema completo — desde a engenharia de impressoras com atmosfera controlada até as formulações químicas de tintas iônicas e poliméricas — permitindo a fabricação sob demanda de sistemas energéticos e funcionais diretamente na mesa de trabalho.
+Nosso objetivo fundamental é transitar da impressão 3D geométrica tradicional para a construção funcional de dispositivos a nível molecular e estrutural. Desenvolvemos o ecossistema completo — desde a engenharia de impressoras com atmosfera controlada até as formulações químicas de tintas iônicas e poliméricas — permitindo a fabricação sob demanda de sistemas energéticos e funcionais diretamente na mesa de trabalho, .
 
 Para validar o potencial desta tecnologia revolucionária, iniciamos o projeto com aplicações práticas de ponto de partida (*start applications*): a substituição de fontes de energia tradicionais, como **pilhas alcalinas de uso cotidiano**, e a evolução para sistemas avançados, como **baterias estruturais de Magnésio e Dióxido de Manganês ($Mg-MnO_2$)**, culminando em fuselagens de drones de alto desempenho impressas de forma monolítica.
 
