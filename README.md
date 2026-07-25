@@ -1,77 +1,78 @@
-# 🔬 Open Molecular Printing Platform & Applied Ionic Technologies
+🔬 Open Molecular Printing Platform & Applied Ionic Technologies
 
-![Licença: Hardware](https://img.shields.io/badge/Hardware_License-CERN--OHL--S-blue.svg)
-![Licença: Software](https://img.shields.io/badge/Software_License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Research_%26_Development-orange)
-![Open Collective](https://img.shields.io/badge/Open_Collective-Apply_in_Progress-lightgrey)
+📌 Executive Summary
 
-## 📌 Resumo Executivo
+The Open Molecular Printing project is a pioneering Open Source Hardware (OSHW) initiative dedicated to democratizing and expanding the frontiers of Applied Molecular Printing and the additive manufacturing of electrochemically active materials.
 
-O projeto **Open Molecular Printing** é uma iniciativa pioneria de Hardware de Código Aberto (OSHW) dedicada a democratizar e expandir as fronteiras da **Impressão Molecular Aplicada** e da manufatura aditiva de materiais ativos. 
+Our fundamental goal is to transition from traditional geometric 3D printing to the functional construction of devices at the molecular and structural levels. We are developing a complete ecosystem—from the engineering of 3D printers with controlled-atmosphere chambers to the chemical formulations of ionic and polymeric printing inks—enabling on-demand fabrication of energy systems and functional devices directly on the desktop.
 
-Nosso objetivo fundamental é transitar da impressão 3D geométrica tradicional para a construção funcional de dispositivos a nível molecular e estrutural. Desenvolvemos o ecossistema completo — desde a engenharia de impressoras com atmosfera controlada até as formulações químicas de tintas iônicas e poliméricas — permitindo a fabricação sob demanda de sistemas energéticos e funcionais diretamente na mesa de trabalho, .
+To validate the potential of this revolutionary technology, we begin with practical "start" applications: the replacement of traditional energy sources, such as everyday alkaline batteries, and the evolution toward advanced systems, such as Magnesium-Manganese Dioxide ($Mg-MnO_2$) structural batteries, culminating in monolithically printed high-performance drone airframes.
 
-Para validar o potencial desta tecnologia revolucionária, iniciamos o projeto com aplicações práticas de ponto de partida (*start applications*): a substituição de fontes de energia tradicionais, como **pilhas alcalinas de uso cotidiano**, e a evolução para sistemas avançados, como **baterias estruturais de Magnésio e Dióxido de Manganês ($Mg-MnO_2$)**, culminando em fuselagens de drones de alto desempenho impressas de forma monolítica.
+⚠️ Safety Disclaimer
 
----
+THIS IS AN ADVANCED RESEARCH PROJECT IN MATERIALS CHEMISTRY AND MANUFACTURING.
+The replication and experiments documented in this repository involve the handling of highly reactive metallic powders, organic solvents, radiation-curable resins, and inert gas environments.
 
-## ⚠️ Aviso de Segurança (Safety Disclaimer)
+Ink mixing and extrusion must be conducted strictly in ventilated areas or under an exhaust hood.
 
-**ESTE É UM PROJETO DE PESQUISA AVANÇADA EM QUÍMICA DE MATERIAIS E MANUFATURA.**
-A replicação e os testes documentados neste repositório envolvem a manipulação de pós metálicos altamente reativos, solventes orgânicos, resinas curáveis por radiação e ambientes de gás inerte.
-* A manipulação e a extrusão das tintas moleculares devem ser conduzidas estritamente em áreas ventiladas ou sob capela de exaustão.
-* Equipamentos de Proteção Individual (EPIs), incluindo luvas nitrílicas/butílicas, óculos de segurança e proteção respiratória para particulados, são **obrigatórios**.
-* Os mantenedores deste ecossistema isentam-se de responsabilidade por incidentes resultantes da replicação incorreta dos processos químicos e físicos descritos.
+Personal Protective Equipment (PPE), including nitrile/butyl gloves, safety goggles, and respiratory protection for particulates, is mandatory.
 
----
+The maintainers of this ecosystem disclaim all liability for incidents resulting from the incorrect replication of the chemical and physical processes described herein.
 
-## 🏗️ Arquitetura do Repositório
+🏗️ Repository Architecture
 
-O projeto é estruturado de forma modular para incentivar contribuições especializadas em diferentes frentes tecnológicas:
+The project is structured in a modular fashion to encourage specialized contributions across different technological fronts:
 
-* 📁 **/Chemistry & Inks:** Formulações abertas de tintas funcionais, incluindo compostos catódicos ($MnO_2$ + aditivos condutores de carbono), ligantes poliméricos ativados e eletrólitos sólidos/gel.
-* 📁 **/Printer & Atmosphere:** Projetos mecânicos, eletrônicos e de firmware para impressoras adaptadas à extrusão de fluidos viscosos (*Direct Ink Writing* - DIW), módulos de cura UV integrada e câmaras seladas de atmosfera controlada para evitar oxidação indesejada.
-* 📁 **/Applications (Start & Scale):**
-  * `/Micro_Power:` Modelos paramétricos e arquivos CAD para a impressão de células de energia compactas (alternativas totalmente abertas e customizáveis às pilhas alcalinas tradicionais para eletrônicos e dispositivos IoT).
-  * `/Structural_LFSD:` Arquiteturas avançadas em estruturas celulares (favo de mel e Voronoi) para baterias estruturais aplicadas à fuselagem de veículos aéreos não tripulados.
-* 📁 **/Software:** Scripts de controle de trajetória, geração de G-code paramétrico adaptado para fluidos não-newtonianos e automação do ambiente controlado.
+📁 /Chemistry & Inks: Open formulations of functional inks, including cathodic compounds ($MnO_2$ + conductive carbon additives), activated polymeric binders, and solid/gel electrolytes.
 
----
+📁 /Printer & Atmosphere: Mechanical, electronic, and firmware designs for printers adapted for high-viscosity fluid extrusion (Direct Ink Writing - DIW), integrated UV curing modules, and sealed controlled-atmosphere chambers to prevent unwanted oxidation.
 
-## 🚀 Roadmap Tecnológico
+📁 /Applications (Start & Scale):
 
-Nossa jornada de desenvolvimento escala desde os fundamentos moleculares até aplicações industriais descentralizadas:
+/Micro_Power: Parametric models and CAD files for printing compact energy cells (fully open and customizable alternatives to traditional alkaline batteries for IoT and portable devices).
 
-- [ ] **Fase 1: Formulação de Tintas e Reologia** - Otimização das proporções de misturas baseadas em $MnO_2$ e carbono para garantir comportamento tixotrópico ideal na extrusão.
-- [ ] **Fase 2: O *Toolhead* Open Source** - Desenvolvimento e liberação de projetos de cabeças de extrusão de alta precisão para impressoras 3D acessíveis.
-- [ ] **Fase 3: Aplicações "Start" (Pilha Aberta)** - Impressão bem-sucedida de células de energia primária de pequeno porte com geometrias customizadas, provando a viabilidade comercial frente às pilhas alcalinas convencionais.
-- [ ] **Fase 4: Atmosfera Controlada e Escalabilidade** - Implementação de gabinetes de gás inerte de baixo custo para permitir o manuseio seguro de ânodos metálicos reativos (como o magnésio puro).
-- [ ] **Fase 5: Integração Estrutural de Alto Desempenho** - Concretização do projeto LFSD (drone com fuselagem geradora de energia) e consolidação da plataforma global de impressão molecular aberta.
+/Structural_LFSD: Advanced cellular architectures (honeycomb and Voronoi) for structural batteries applied to unmanned aerial vehicle airframes.
 
----
+📁 /Software: Trajectory control scripts, parametric G-code generation adapted for non-Newtonian fluids, and automation for the controlled environment.
 
-## 🤝 Como Contribuir
+🚀 Technological Roadmap
 
-A evolução da manufatura molecular aberta exige colaboração multidisciplinar. Convidamos químicos de materiais, engenheiros mecânicos, desenvolvedores de software e entusiastas de hardware a somarem forças.
+Our development journey scales from molecular foundations to decentralized industrial applications:
 
-Consulte o nosso [Guia de Contribuição](CONTRIBUTING.md) e o [Código de Conduta](CODE_OF_CONDUCT.md) para iniciar suas interações e submissões.
+[ ] Phase 1: Ink Formulation & Rheology - Optimization of $MnO_2$ and carbon mixtures to ensure ideal thixotropic behavior for extrusion.
 
----
+[ ] Phase 2: The Open Source Toolhead - Development and release of high-precision extrusion toolhead designs for accessible 3D printers.
 
-## 💡 Financiamento e Transparência
+[ ] Phase 3: "Start" Applications (Open Cells) - Successful printing of small-scale primary energy cells with custom geometries, proving commercial viability against conventional alkaline batteries.
 
-Este projeto opera sob os princípios do desenvolvimento totalmente aberto e transparente. Buscamos a hospedagem fiscal junto à **Open Source Collective (OSC)** para garantir a integridade e a gestão comunitária de quaisquer recursos obtidos.
+[ ] Phase 4: Controlled Atmosphere & Scalability - Implementation of low-cost inert gas cabinets to allow the safe handling of reactive metallic anodes (such as pure Magnesium).
 
-Os fundos coletados são aplicados exclusivamente em:
-* Aquisição de reagentes químicos de pureza analítica e insumos laboratoriais.
-* Usinagem e prototipagem de componentes mecânicos e câmaras de atmosfera controlada.
-* Infraestrutura computacional para modelagem molecular e simulações assistidas por IA.
+[ ] Phase 5: High-Performance Structural Integration - Completion of the LFSD project (energy-generating drone airframe) and consolidation of a global open molecular printing platform.
 
----
+🤝 How to Contribute
 
-## 📄 Licenciamento
+The evolution of open molecular manufacturing requires multidisciplinary collaboration. We invite materials scientists, mechanical engineers, software developers, and open hardware enthusiasts to join forces.
 
-O ecossistema é regido por licenças abertas rigorosas:
-* **Hardware, Mecânica e CAD:** [CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S)](https://ohwr.org/cern_ohl_s_v2.txt)
-* **Firmware, Scripts e Código:** [Licença MIT](LICENSE-MIT.txt)
-* **Documentação, Manuais e Textos:** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+Please consult our CONTRIBUTING.md and CODE_OF_CONDUCT.md to begin your interactions and submissions.
+
+💡 Funding and Transparency
+
+This project operates under the principles of total openness and transparency. We are seeking fiscal hosting through the Open Source Collective (OSC) to ensure integrity and community-managed governance of all obtained resources.
+
+Funds collected are applied exclusively to:
+
+Acquisition of analytical-grade chemical reagents and laboratory supplies.
+
+Machining and prototyping of mechanical components and controlled-atmosphere chambers.
+
+Computational infrastructure for molecular modeling and AI-assisted simulations.
+
+📄 Licensing
+
+This ecosystem is governed by rigorous open licenses:
+
+Hardware, Mechanics, and CAD: CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S)
+
+Firmware, Scripts, and Code: MIT License
+
+Documentation, Manuals, and Texts: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
