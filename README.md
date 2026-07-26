@@ -47,6 +47,7 @@ Nossa jornada de desenvolvimento escala desde os fundamentos moleculares até ap
 - [ ] **Fase 3: Aplicações "Start" (Pilha Aberta)** - Impressão bem-sucedida de células de energia primária de pequeno porte com geometrias customizadas, provando a viabilidade comercial frente às pilhas alcalinas convencionais.
 - [ ] **Fase 4: Atmosfera Controlada e Escalabilidade** - Implementação de gabinetes de gás inerte de baixo custo para permitir o manuseio seguro de ânodos metálicos reativos (como o magnésio puro).
 - [ ] **Fase 5: Integração Estrutural de Alto Desempenho** - Concretização do projeto LFSD (drone com fuselagem geradora de energia) e consolidação da plataforma global de impressão molecular aberta.
+- [ ] **Fase 6: Impressão Molecular Aplicada** - Refinamento das técnicas de deposição em micro-escala, inaugurando processos open-source de manipulação de materiais de altíssimo desempenho a nível estrutural e molecular.
 
 ---
 
