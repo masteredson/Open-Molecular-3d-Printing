@@ -8,7 +8,7 @@ Obrigado por se interessar em contribuir para o nosso projeto! Este documento va
 
 Se você não é desenvolvedor ou quer apoiar o projeto de outra forma, considere fazer uma doação financeira. Isso nos ajuda a manter o projeto ativo e a pagar pelos custos de infraestrutura.
 
-* **Doe via Open Collective:** [Clique aqui para contribuir]([https://opencollective.com](https://opencollective.com/open-molecular-3d-printing)
+* **Doe via Open Collective:** [Clique aqui para contribuir](https://opencollective.com/open-molecular-3d-printing)
 * **Transparência:** Todos os fundos e gastos são públicos e visíveis na plataforma.
 * **Benefícios:** Apoiadores ganham destaque em nosso README principal.
 
